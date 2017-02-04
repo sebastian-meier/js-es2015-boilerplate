@@ -90,6 +90,10 @@ I also added a small function that compiles the code when a file in the src fold
 npm run watch
 ```
 
-##Conclusion
+## Conclusion
 
 There are a lot more options to setup your compiler and of course a lot more advanced tools than using an npm run script, like for instance webpack or gulp or whatever. But i find this to be a good minimalist starting point.
+
+## Problems
+
+I think this depends on file system problems of my own, but sometimes my compile script was not able to modify the build folder, so i had to run the compile script under sudo.
